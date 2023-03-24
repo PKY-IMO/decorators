@@ -1,0 +1,6 @@
+{
+    "entryPoints": [
+        "./code/demo-nest/controller.ts"
+    ],
+    "out": "./docs"
+}

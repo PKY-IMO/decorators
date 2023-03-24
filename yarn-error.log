@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/bin/node /Users/pky/.node/corepack/yarn/1.22.15/bin/yarn.js add reflect-metada
+
+PATH: 
+  /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/pky/.cargo/bin:/Users/pky/bin:/Users/pky/Documents/Maven/apache-maven-3.5.4/bin:/Users/pky/bin:/Users/pky/Documents/Maven/apache-maven-3.5.4/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.16.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/reflect-metada: Not found
+      at Request.params.callback [as _callback] (/Users/pky/.node/corepack/yarn/1.22.15/lib/cli.js:66140:18)
+      at Request.self.callback (/Users/pky/.node/corepack/yarn/1.22.15/lib/cli.js:140885:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/Users/pky/.node/corepack/yarn/1.22.15/lib/cli.js:141857:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (/Users/pky/.node/corepack/yarn/1.22.15/lib/cli.js:141779:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "decorator",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
